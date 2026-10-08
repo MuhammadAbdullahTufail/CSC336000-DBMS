@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: ${DOCKERHUB_USERNAME}/gorent-backend:${IMAGE_TAG:-latest}
+    env_file:
+      - ./backend.env
+    ports:
+      - "${BACKEND_PORT:-5000}:5000"
+    restart: unless-stopped
+
+  frontend:
+    image: ${DOCKERHUB_USERNAME}/gorent-frontend:${IMAGE_TAG:-latest}
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped

@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply min-h-screen bg-slate-950 text-gray-100 antialiased;
+  }
+
+  a,
+  button,
+  input,
+  select,
+  textarea {
+    @apply outline-none;
+  }
+
+  /* Typed values: white text on dark fields (text, dates, selects, textareas) */
+  input:not([type='checkbox']):not([type='radio']):not([type='range']):not([type='file']):not([type='button']):not([type='submit']):not([type='reset']):not([type='image']),
+  select,
+  textarea {
+    @apply bg-white/10 border border-white/20 text-white placeholder:text-gray-400;
+    color-scheme: dark;
+  }
+
+  select option {
+    @apply bg-slate-900 text-white;
+  }
+
+  button,
+  a {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300;
+  }
+}

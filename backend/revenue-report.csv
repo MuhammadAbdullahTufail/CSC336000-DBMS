@@ -1,0 +1,6 @@
+owner_user_id,owner_first_name,owner_last_name,vehicle_id,make,model,year,listing_id,booking_id,start_date,end_date,booking_status,payment_id,payment_status,payment_amount,booking_fee,commission,dropoff_fee,platform_payout,lister_payout,payout_date
+1,Ty,Owner,2,Honda,Civic,2021,4,6,2026-05-27 00:00:00,2026-05-29 23:59:59,confirmed,6,completed,767.13,5.0,76.71,0.0,81.71,685.42,2026-05-11 16:01:32.489567
+1,Ty,Owner,2,Honda,Civic,2021,4,6,2026-05-27 00:00:00,2026-05-29 23:59:59,confirmed,6,completed,767.13,5.0,63.6,0.0,68.6,636.0,2026-05-11 16:01:32.489567
+1,Ty,Owner,1,Toyota,Corolla,2003,3,5,2026-05-28 00:00:00,2026-05-29 23:59:59,confirmed,5,completed,98.81,5.0,7.8,0.0,12.8,77.96,2026-05-11 05:01:51.245806
+1,Ty,Owner,1,Toyota,Corolla,2003,3,4,2026-05-11 00:00:00,2026-05-11 23:59:59,confirmed,4,completed,43.77,5.0,3.2,0.0,8.2,32.0,2026-05-11 04:26:20.792266
+1,Ty,Owner,1,Toyota,Corolla,2003,3,3,2026-05-12 00:00:00,2026-05-19 23:59:59,confirmed,3,completed,312.04,5.0,25.6,0.0,30.6,256.0,2026-05-11 04:25:32.665609
